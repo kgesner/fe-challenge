@@ -26,7 +26,7 @@ nav { /*everything in top "head" section*/
 }
 
 .bus-list { /*list of all buses/info*/
-  padding: 10px 30px 10px 30px;
+  padding: 10px 30px 0 30px;
 }
 
 .header h1 { /*"bus list"*/
@@ -45,10 +45,10 @@ nav { /*everything in top "head" section*/
 }
 
 .location { /*directional groupings*/
-  border-bottom: .5px solid #BCBBC1;
+  /*border-bottom: .5px solid #BCBBC1;*/
   width: 100%;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .location h2 { /*route direction*/
@@ -57,9 +57,10 @@ nav { /*everything in top "head" section*/
 
 .content { /*effects bus route info*/
   width: 90%;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  /*border-bottom: .5px solid #000;*/
+  height: 40%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: .5px solid #BCBBC1;
 }
 
 .content:hover {
@@ -117,27 +118,18 @@ nav { /*everything in top "head" section*/
 .footer {
   font-size: 200%;
   color: #007AFF;
-  padding: 15px;
-  display: inline-block;
-  
+  margin: auto;
+  width: 90%;
+  padding: 0 0 0 52px;
 }
 
 .frequency h4 {
   text-align: right;
 }
 
-.home {
-  padding: 0 5px 0 5px;
-}
 
-.favorites {
-  padding: 0 5px 0 5px;
-}
-
-.settings {
-  padding: 0 5px 0 5px;
-}
-
-.search {
-  padding: 0 5px 0 5px;
+.home, .favorites, .settings, .search {
+  display: inline-block;
+  padding: 2%;
+  width: 23%;
 }
