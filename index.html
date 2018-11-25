@@ -6,20 +6,29 @@
     <title></title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://use.fontawesome.com/37471687aa.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   </head>
 
   <body>
     <section class="container">
       <nav>
-        <div class="arrow-left">
-          <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
-        </div>
-        <div class="header">
-          <h1>Bus List</h1>
+        <div class="top-nav">
+          <div class="arrow-left">
+            <i class="fas fa-angle-left fa-3x" aria-hidden="true"></i>
+          </div>
+          <div class="header">
+            <h1>Bus List</h1>
+          </div>
+          <div class="refresh">
+            <i class="fas fa-redo fa-2x" aria-hidden="true"></i>
+          </div>
         </div>
       </nav>
+
+      <section>
+        <div class="map">
+        </div>
+      </section>
 
       <section class="bus-list">
         <div class="location">
@@ -31,32 +40,39 @@
             <div class="content--bus-route-green">
               <h2>60</h2>
             </div>
-            <div class="name">
-              <h3>Randolph/Harbor Dr </h3>
-            </div>
-            <div class="frequency">
-              <h4>Every 20 minutes</h4>
-            </div>
-          </div>
+
+            <div class="route">
+              <div class="name">
+                <h3>Randolph/Harbor Dr </h3>
+              </div>
+              <div class="frequency">
+                <h4>Every 20 minutes</h4>
+              </div>
+            </div> <!-- route -->
+          </div> <!-- content -->
+
           <div class="arrow">
-            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+            <i class="fas fa-angle-right fa-3x" aria-hidden="true"></i>
           </div>
 
           <div class="content">
             <div class="content--bus-route-green">
               <h2>124</h2>
             </div>
-            <div class="name">
-              <h3>Navy Pier </h3>
-            </div>
-            <div class="frequency">
-              <h4>Every 10 minutes</h4>
-            </div>
-            </div>
+
+            <div class="route">
+              <div class="name">
+                <h3>Navy Pier </h3>
+              </div>
+              <div class="frequency">
+                <h4>Every 10 minutes</h4>
+              </div>
+            </div><!-- route -->
+          </div><!-- content -->
             <div class="arrow">
-              <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+              <i class="fas fa-angle-right fa-3x" aria-hidden="true"></i>
             </div>
-          </div>
+        </div>  <!-- location -->
 
         <div class="location">
           <div class="Northbound">
@@ -67,18 +83,21 @@
             <div class="content--bus-route-green">
               <h2>151</h2>
             </div>
-            <div class="name">
-              <h3>Devon/Clark </h3>
-            </div>
-            <div class="frequency">
-              <h4>Every 16 minutes</h4>
-            </div>
 
-          </div>
+          <div class="route">
+              <div class="name">
+                <h3>Devon/Clark </h3>
+              </div>
+              <div class="frequency">
+                <h4>Every 16 minutes</h4>
+              </div>
+          </div><!-- route -->
+        </div><!-- content -->
+
           <div class="arrow">
-            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+            <i class="fas fa-angle-right fa-3x" aria-hidden="true"></i>
           </div>
-        </div>
+        </div> <!-- location -->
 
         <div class="location">
           <div class="Southbound">
@@ -89,32 +108,40 @@
             <div class="content--bus-route-green">
               <h2>J14</h2>
             </div>
-            <div class="name">
-              <h3>103rd/Stony Island </h3>
-            </div>
-            <div class="frequency">
-              <h4>Every 15 minutes</h4>
-            </div>
-          </div>
+
+            <div class="route">
+              <div class="name">
+                <h3>103rd/Stony Island </h3>
+              </div>
+              <div class="frequency">
+                <h4>Every 15 minutes</h4>
+              </div>
+            </div><!-- route -->
+          </div><!-- content -->
+
           <div class="arrow">
-            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+            <i class="fas fa-angle-right fa-3x" aria-hidden="true"></i>
           </div>
 
           <div class="content">
             <div class="content--bus-route-green">
               <h2>1244</h2>
             </div>
-            <div class="name">
-              <h3>Navy Pier </h3>
-            </div>
-            <div class="frequency">
-              <h4>Every 10 minutes</h4>
-            </div>
-          </div>
+
+            <div class="route">
+              <div class="name">
+                <h3>Navy Pier </h3>
+              </div>
+              <div class="frequency">
+                <h4>Every 10 minutes</h4>
+              </div>
+            </div><!-- route -->
+          </div><!-- content -->
+
           <div class="arrow">
-            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+            <i class="fas fa-angle-right fa-3x" aria-hidden="true"></i>
           </div>
-        </div>
+        </div> <!-- location -->
 
         <div class="location">
           <div class="Reroute">
@@ -126,17 +153,20 @@
               <h2>6x</h2>
             </div>
 
-            <div class="name">
-              <h3>Jackson Park Express </h3>
-            </div>
-            <div class="frequency">
-              <h4>N/A</h4>
-            </div>
-          </div>
+            <div class="route">
+              <div class="name">
+                <h3>Jackson Park Express </h3>
+              </div>
+              <div class="frequency">
+                <h4>N/A</h4>
+              </div>
+            </div><!-- route -->
+          </div><!-- content -->
+
           <div class="arrow">
-            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+            <i class="fas fa-angle-right fa-3x" aria-hidden="true"></i>
           </div>
-        </div>
+        </div> <!-- location -->
 
         <div class="location">
           <div class="Out-Of-Service">
@@ -147,64 +177,77 @@
             <div class="content--bus-route-red">
               <h2>04</h2>
             </div>
-            <div class="name">
-              <h3>Cottage Grove</h3>
-            </div>
-            <div class="frequency">
-              <h4>Resumes 12:10am</h4>
-            </div>
-          </div>
-          <div class="arrow">
-            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
-          </div>
 
+            <div class="route">
+              <div class="name">
+                <h3>Cottage Grove</h3>
+              </div>
+              <div class="frequency">
+                <h4>Resumes 12:10am</h4>
+              </div>
+            </div><!-- route -->
+          </div><!-- content -->
+
+          <div class="arrow">
+            <i class="fas fa-angle-right fa-3x" aria-hidden="true"></i>
+          </div>
 
           <div class="content">
             <div class="content--bus-route-red">
               <h2>20</h2>
             </div>
-            <div class="name">
-              <h3>Madison</h3>
-            </div>
-            <div class="frequency">
-              <h4>Resumes 12:10am</h4>
-            </div>
-          </div>
+
+            <div class="route">
+              <div class="name">
+                <h3>Madison</h3>
+              </div>
+              <div class="frequency">
+                <h4>Resumes 12:10am</h4>
+              </div>
+            </div><!-- route -->
+          </div><!-- content -->
+
           <div class="arrow">
-            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+            <i class="fas fa-angle-right fa-3x" aria-hidden="true"></i>
           </div>
 
           <div class="content">
             <div class="content--bus-route-red">
               <h2>157</h2>
             </div>
-            <div class="name">
-              <h3>Streeterville/Taylor </h3>
-            </div>
-            <div class="frequency">
-              <h4>Resumes 6:00am</h4>
-            </div>
-          </div>
+
+            <div class="route">
+              <div class="name">
+                <h3>Streeterville/Taylor </h3>
+              </div>
+              <div class="frequency">
+                <h4>Resumes 6:00am</h4>
+              </div>
+            </div><!-- route -->
+          </div><!-- content -->
+
           <div class="arrow">
-            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+            <i class="fas fa-angle-right fa-3x" aria-hidden="true"></i>
           </div>
-        </div>
+        </div> <!-- location -->
       </section>
 
-      <section class="container">
+      <section class="nav-bar--bottom">
         <nav>
-          <div class="footer">
-            <div class="home">
-              <i class="fas fa-home" aria-hidden="true"></i>
-            </div>
-            <div class="favorites">
-              <i class="fas fa-heart" aria-hidden="true"></i>
-            </div>
-            <div class="search">
-              <i class="fas fa-search" aria-hidden="true"></i>
-            </div>
-            <div class="settings">
-              <i class="fas fa-cog" aria-hidden="true"></i>
+          <div class="bottom-nav">
+            <div class="footer">
+              <div class="home">
+                <i class="fas fa-home fa-lg" aria-hidden="true"></i>
+              </div>
+              <div class="favorites">
+                <i class="fas fa-heart fa-lg" aria-hidden="true"></i>
+              </div>
+              <div class="search">
+                <i class="fas fa-search fa-lg" aria-hidden="true"></i>
+              </div>
+              <div class="settings">
+                <i class="fas fa-cog fa-lg" aria-hidden="true"></i>
+              </div>
             </div>
           </div>
         </nav>
