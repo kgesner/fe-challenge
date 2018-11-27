@@ -87,6 +87,7 @@ img {
 
 .location h2 { /*route direction*/
   font-size: 190%;
+  font-weight: 600;
 }
 
 .Eastbound, .Northbound, .Southbound, .Reroute {
